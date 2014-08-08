@@ -1,15 +1,18 @@
-﻿using System;
+﻿using System.Collections.Generic;
 
 namespace zconnect
 {
-    public abstract class APerson
+    public abstract class APerson : APersonWithoutAFamily
     {
-        public ASign Sign { set; get; }
-        public string FirstName { set; get; }
-        public string LastName { set; get; }
-        public string MiddleName { set; get; }
-        public DateTime DateOfBirth { set; get; }
+        /// <summary>
+        /// the goal is to derive conclusions based on a person's data
+        /// </summary>
+        public List<string> Conclusions { set; get; }
+
         public string CityOfBirth { set; get; }
+
         public string CountryOfBirth { set; get; }
+
+        public Family Family { set; get; }
     }
 }

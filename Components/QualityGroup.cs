@@ -1,4 +1,4 @@
-﻿namespace zconnect
+﻿namespace zconnect.SignComponents
 {
     /// <summary>
     ///     If you and a potential love match have star signs that fall within the

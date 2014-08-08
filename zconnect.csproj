@@ -39,17 +39,33 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Adjacency.cs" />
+    <Compile Include="APersonWithoutAFamily.cs" />
+    <Compile Include="AstonomicalQualities.cs" />
+    <Compile Include="Components\Definition.cs" />
+    <Compile Include="Family.cs" />
+    <Compile Include="Models\MonthName.cs" />
+    <Compile Include="Numerology.cs" />
+    <Compile Include="Components\OtherRepresentation.cs" />
+    <Compile Include="Components\PersonalitiesAndCharacteristics.cs" />
+    <Compile Include="Components\SignNames.cs" />
+    <Compile Include="SignProperties\Animal.cs" />
     <Compile Include="APerson.cs" />
     <Compile Include="ASign.cs" />
-    <Compile Include="AnOpositePair.cs" />
-    <Compile Include="Elements.cs" />
+    <Compile Include="SignProperties\Color.cs" />
+    <Compile Include="SignProperties\DayOfWeek.cs" />
+    <Compile Include="SignProperties\Elements.cs" />
+    <Compile Include="SignProperties\Gemstone.cs" />
+    <Compile Include="SignProperties\Metal.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="QualityGroup.cs" />
-    <Compile Include="RuledBy.cs" />
-    <Compile Include="StartStone.cs" />
+    <Compile Include="Components\QualityGroup.cs" />
+    <Compile Include="Components\RuledBy.cs" />
+    <Compile Include="SignProperties\Season.cs" />
+    <Compile Include="SignProperties\StarStone.cs" />
+    <Compile Include="SignProperties\Symbol.cs" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <Folder Include="ConcreteSigns\" />
+  </ItemGroup>
   <ItemGroup>
     <Content Include="README.txt" />
   </ItemGroup>

@@ -1,4 +1,4 @@
-﻿namespace zconnect
+﻿namespace zconnect.SignProperties
 {
     /// <summary>
     ///     When you and a partner have signs in the same element,
