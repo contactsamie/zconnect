@@ -1,8 +1,9 @@
-﻿namespace zconnect.SignComponents
+﻿namespace zconnect.Components
 {
     public enum SignName
     {
-        Aries = 1,
+        Unknown = 0,
+        Aries,
         Taurus,
         Gemini,
         Cancer,

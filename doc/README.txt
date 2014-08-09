@@ -1,7 +1,7 @@
 ﻿//http://www.exploringpsychics.com/astrological-signs-taurus.html
  /*
         
-        * Aries (March 21 – April 19)
+Aries (March 21 – April 19)
 Taurus (April 20 – May 20)
 Gemini (May 21 - June 21)
 Cancer (June 22 - July 22)

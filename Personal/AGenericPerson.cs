@@ -1,8 +1,9 @@
 ﻿using System;
+using zconnect.Astronomy;
 
-namespace zconnect
+namespace zconnect.Personal
 {
-    public abstract class APersonWithoutAFamily
+    public abstract class AGenericPerson
     {
         public AstonomicalQualities AstonomicalIdentity { set; get; }
 

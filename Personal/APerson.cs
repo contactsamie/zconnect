@@ -1,11 +1,11 @@
 ﻿using System.Collections.Generic;
 
-namespace zconnect
+namespace zconnect.Personal
 {
-    public abstract class APerson : APersonWithoutAFamily
+    public abstract class APerson : AGenericPerson
     {
         /// <summary>
-        /// the goal is to derive conclusions based on a person's data
+        ///     the goal is to derive conclusions based on a person's data
         /// </summary>
         public List<string> Conclusions { set; get; }
 

@@ -8,6 +8,6 @@
     /// </summary>
     public enum Metal
     {
-
+        Unknown = 0
     }
 }

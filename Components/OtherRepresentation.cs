@@ -1,6 +1,6 @@
 ﻿using zconnect.SignProperties;
 
-namespace zconnect.SignComponents
+namespace zconnect.Components
 {
     public class OtherRepresentation
     {
@@ -10,7 +10,7 @@ namespace zconnect.SignComponents
 
         public Metal Metal { set; get; }
 
-        public DayOfWeek DayOfWeek { set; get; }
+        public SignDayOfWeek DayOfWeek { set; get; }
 
         public Color Color { set; get; }
 
@@ -18,7 +18,6 @@ namespace zconnect.SignComponents
 
         public Season Season { set; get; }
 
-        
 
         public Symbol Symbol { set; get; }
 

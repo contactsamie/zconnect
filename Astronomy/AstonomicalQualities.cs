@@ -1,11 +1,11 @@
-﻿using zconnect.SignComponents;
+﻿using zconnect.Concrete;
 
-namespace zconnect
+namespace zconnect.Astronomy
 {
     public class AstonomicalQualities
     {
         public int NumerologyNumber { set; get; }
 
-        public SignName SignName { set; get; }
+        public BaseSign SignName { set; get; }
     }
 }

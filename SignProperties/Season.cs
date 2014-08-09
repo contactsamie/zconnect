@@ -2,6 +2,6 @@
 {
     public enum Season
     {
-
+        Unknown = 0
     }
 }

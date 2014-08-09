@@ -2,5 +2,6 @@
 {
     public enum StarStone
     {
+        Unknown = 0
     }
 }

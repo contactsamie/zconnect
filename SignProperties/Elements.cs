@@ -4,7 +4,7 @@
     ///     When you and a partner have signs in the same element,
     ///     shared weaknesses may be over-emphasized leading to conflict.
     /// </summary>
-    public enum Elements
+    public enum Element
     {
         UnknownElement = 0,
         Fire,

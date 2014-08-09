@@ -1,10 +1,10 @@
 ﻿using System.Collections.Generic;
 using zconnect.Components;
-using zconnect.SignComponents;
+using zconnect.SignProperties;
 
-namespace zconnect
+namespace zconnect.Astronomy
 {
-    public class ASign
+    public abstract class ASign
     {
         public SignName Name { set; get; }
 
@@ -15,6 +15,8 @@ namespace zconnect
         ///     often find that they have little in common and may even actively dislike each other.
         /// </summary>
         public List<SignName> AdjacentSigns { set; get; }
+
+        public Element Element { set; get; }
 
         public PersonalitiesAndCharacteristics PersonalitiesAndCharacteristics { set; get; }
 

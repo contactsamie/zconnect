@@ -2,5 +2,6 @@
 {
     public enum Color
     {
+        Unknown = 0
     }
 }

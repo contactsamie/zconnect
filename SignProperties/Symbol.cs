@@ -2,6 +2,6 @@
 {
     public enum Symbol
     {
-
+        Unknown = 0
     }
 }

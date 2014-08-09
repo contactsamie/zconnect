@@ -39,18 +39,33 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="APersonWithoutAFamily.cs" />
-    <Compile Include="AstonomicalQualities.cs" />
+    <Compile Include="Personal\AGenericPerson.cs" />
+    <Compile Include="Astronomy\AstonomicalQualities.cs" />
     <Compile Include="Components\Definition.cs" />
-    <Compile Include="Family.cs" />
+    <Compile Include="Astronomy\BaseSign.cs" />
+    <Compile Include="Concrete\Signs\Aquarius.cs" />
+    <Compile Include="Concrete\Signs\Aries.cs" />
+    <Compile Include="Concrete\Signs\Cancer.cs" />
+    <Compile Include="Concrete\Signs\Capricorn.cs" />
+    <Compile Include="Concrete\Signs\Gemini.cs" />
+    <Compile Include="Concrete\Signs\Leo.cs" />
+    <Compile Include="Concrete\Signs\Libra.cs" />
+    <Compile Include="Concrete\Signs\Pisces.cs" />
+    <Compile Include="Concrete\Signs\Sagittarius.cs" />
+    <Compile Include="Concrete\Signs\Scorpio.cs" />
+    <Compile Include="Concrete\Signs\Taurus.cs" />
+    <Compile Include="Concrete\Signs\UnknownSign.cs" />
+    <Compile Include="Concrete\Signs\Virgo.cs" />
+    <Compile Include="Factories\SignFactory.cs" />
+    <Compile Include="Personal\Family.cs" />
     <Compile Include="Models\MonthName.cs" />
-    <Compile Include="Numerology.cs" />
+    <Compile Include="Astronomy\Numerology.cs" />
     <Compile Include="Components\OtherRepresentation.cs" />
     <Compile Include="Components\PersonalitiesAndCharacteristics.cs" />
     <Compile Include="Components\SignNames.cs" />
     <Compile Include="SignProperties\Animal.cs" />
-    <Compile Include="APerson.cs" />
-    <Compile Include="ASign.cs" />
+    <Compile Include="Personal\APerson.cs" />
+    <Compile Include="Astronomy\ASign.cs" />
     <Compile Include="SignProperties\Color.cs" />
     <Compile Include="SignProperties\DayOfWeek.cs" />
     <Compile Include="SignProperties\Elements.cs" />
@@ -63,11 +78,9 @@
     <Compile Include="SignProperties\StarStone.cs" />
     <Compile Include="SignProperties\Symbol.cs" />
   </ItemGroup>
+  <ItemGroup />
   <ItemGroup>
-    <Folder Include="ConcreteSigns\" />
-  </ItemGroup>
-  <ItemGroup>
-    <Content Include="README.txt" />
+    <Content Include="doc\README.txt" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

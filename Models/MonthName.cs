@@ -1,6 +1,6 @@
 ﻿namespace zconnect.Models
 {
-    public enum MonthName:int
+    public enum MonthName
     {
         January = 1,
         February,

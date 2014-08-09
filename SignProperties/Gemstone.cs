@@ -2,6 +2,6 @@
 {
     public enum Gemstone
     {
-
+        Unknown = 0
     }
 }

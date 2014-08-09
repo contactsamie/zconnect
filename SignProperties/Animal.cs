@@ -2,6 +2,6 @@
 {
     public enum Animal
     {
-
+        Unknown = 0
     }
 }
