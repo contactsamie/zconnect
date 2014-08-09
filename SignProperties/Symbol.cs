@@ -2,6 +2,7 @@
 {
     public enum Symbol
     {
-        Unknown = 0
+        Unknown = 0,
+        TheWaterCarrier
     }
 }

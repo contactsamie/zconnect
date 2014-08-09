@@ -9,6 +9,7 @@
         UnknownElement = 0,
         Fire,
         Water,
-        Air
+        Air,
+        Earth
     }
 }

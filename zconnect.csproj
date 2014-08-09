@@ -39,6 +39,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Components\BodyPart.cs" />
     <Compile Include="Personal\AGenericPerson.cs" />
     <Compile Include="Astronomy\AstonomicalQualities.cs" />
     <Compile Include="Components\Definition.cs" />

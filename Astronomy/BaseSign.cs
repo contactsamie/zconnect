@@ -12,18 +12,18 @@ namespace zconnect.Astronomy
             Definition = new Definition(0, 0, 0, 0);
             Element = Element.UnknownElement;
             OppositeSign = SignName.Unknown;
-            RuledBy = Ruler.Unknown;
+            Rulers = Ruler.Unknown;
             QualityGroup = QualityGroup.UnknownQualityGroup;
             OtherRepresentation = new OtherRepresentation
             {
                 Animal = Animal.Unknown,
-                BodyPart = "",
+                BodyParts = "",
                 Color = Color.Unknown,
                 DayOfWeek = SignDayOfWeek.Unknown,
-                Gemstone = Gemstone.Unknown,
+                Gemstones = Gemstone.Unknown,
                 Metal = Metal.Unknown,
                 Season = Season.Unknown,
-                StartStone = StarStone.Unknown,
+                StarStone = StarStone.Unknown,
                 Symbol = Symbol.Unknown
             };
             AdjacentSigns = new List<SignName>();

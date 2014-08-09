@@ -22,7 +22,7 @@ namespace zconnect.Astronomy
 
         public SignName OppositeSign { set; get; }
 
-        public Ruler RuledBy { set; get; }
+        public List<Ruler> Rulers =new List<Ruler>();
 
         public OtherRepresentation OtherRepresentation { set; get; }
 

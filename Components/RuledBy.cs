@@ -2,6 +2,9 @@
 {
     public enum Ruler
     {
-        Unknown = 0
+        Unknown = 0,
+        Saturn,
+        Uranus,
+        Venus
     }
 }

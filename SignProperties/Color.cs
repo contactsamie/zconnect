@@ -2,6 +2,7 @@
 {
     public enum Color
     {
-        Unknown = 0
+        Unknown = 0,
+        Skyblue
     }
 }

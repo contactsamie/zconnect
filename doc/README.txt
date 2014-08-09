@@ -14,6 +14,11 @@ Capricorn (December 22 - January 19)
 Aquarius (January 20 - February 18)
 Pisces (February 19 - March 20)
         */
+
+		Cardinal	Cardinal symbol.svg	Action; initiative; great vitality	Aries; Cancer; Libra; Capricorn
+Fixed	Fixed symbol.svg	Resistance to change; great willpower	Taurus; Leo; Scorpio; Aquarius
+Mutable	Mutable symbol.svg	Adaptability	Gemini; Virgo; Sagittarius; Pisces
+
 /*
  
  * Numerology is the study of numbers and their meanings. Every letter in the alphabet has 

@@ -1,12 +1,19 @@
-﻿using zconnect.SignProperties;
+﻿using System.Collections.Generic;
+using zconnect.SignProperties;
 
 namespace zconnect.Components
 {
     public class OtherRepresentation
     {
-        public StarStone StartStone { set; get; }
+        public OtherRepresentation()
+        {
+            Gemstones=new List<Gemstone>();
+            BodyParts=new List<BodyPart>();
+        }
 
-        public string BodyPart { set; get; }
+        public StarStone StarStone { set; get; }
+
+        public List<BodyPart> BodyParts { set; get; }
 
         public Metal Metal { set; get; }
 
@@ -14,7 +21,7 @@ namespace zconnect.Components
 
         public Color Color { set; get; }
 
-        public Gemstone Gemstone { set; get; }
+        public List<Gemstone> Gemstones { set; get; }
 
         public Season Season { set; get; }
 
